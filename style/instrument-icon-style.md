@@ -1,12 +1,24 @@
 # 마스터 프롬프트
 
 ```
+[SUBJECT]
+A stylized 3D product render of a {OBJECT}.
+Silhouette: from the SECOND reference image:
+Use the second attached image ONLY as a shape and proportion reference..
+The object keeps its own true, instantly recognizable real-world form.
+Proportions slightly compacted and chunky, like a premium miniature
+collectible — never distorted, never exaggerated. One single object only.
+
+[REFERENCE IMAGE ROLES — READ FIRST]
+IMAGE 1 (style reference): defines material, colour, finish, lighting,
+background, camera angle, and framing. Match it exactly.
+IMAGE 2 (shape reference): defines silhouette and proportion ONLY.
+Take nothing else from it.
+If the two images conflict on any attribute other than shape,
+IMAGE 1 always wins.
+
 [CAMERA & FRAMING — HIGHEST PRIORITY]
 Single isolated 3D object floating in empty black space.
-ORIENTATION: the object's long axis points toward 1 o'clock at the top
-and 7 o'clock at the bottom, tilted about 33 degrees clockwise from
-vertical. A clear diagonal lean — visibly reclined, not standing upright,
-but not collapsed toward horizontal either.
 CAMERA: positioned at eye level, level with the middle of the object.
 No downward tilt, no high angle, no looking down at the object.
 Straight-on frontal view with only a slight three-quarter turn, so the
@@ -15,13 +27,6 @@ edge shows on the right.
 LENS: 85mm, mild perspective, minimal foreshortening.
 The object occupies 85% of the frame height, centered.
 Square 1:1 composition.
-
-[SUBJECT]
-A stylized 3D product render of a {OBJECT}.
-Silhouette: {SILHOUETTE}.
-The object keeps its own true, instantly recognizable real-world form.
-Proportions slightly compacted and chunky, like a premium miniature
-collectible — never distorted, never exaggerated. One single object only.
 
 [EDGE LANGUAGE — FIXED]
 Uniform 2mm chamfered bevels on every edge, applied consistently across
@@ -76,5 +81,8 @@ hands, human figure, face, eyes,
 white background, grey background, gradient background, floor, table,
 ground shadow, reflection on floor,
 flat 2D, vector, line art only, sketch, illustration,
-cropped, extreme close-up, top-down view, flat side profile, fisheye
+cropped, extreme close-up, top-down view, flat side profile, fisheye, copying colour from shape reference, copying material from shape reference,
+copying background from shape reference, copying lighting from shape reference,
+inheriting text or logo from reference image, blending two styles,
+mixed material from multiple references
 ```
